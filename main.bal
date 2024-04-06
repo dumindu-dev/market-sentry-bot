@@ -64,6 +64,9 @@ function sendTelegramMessageWithSticker(int chat_id, string message, string stic
 }
 
 service / on httpListener {
+    resource function get .(http:Request req) returns string|error {
+        return "Test endpoint";
+    }
     resource function post .(http:Request req) returns int|error {
         json abcd = check req.getJsonPayload();
         int chat_id = check value:ensureType(abcd.message.chat.id, int);
