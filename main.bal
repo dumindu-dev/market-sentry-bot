@@ -13,7 +13,7 @@ string telegramBotAuth = "/bot"+encodedTelegramToken+"/";
 string SEND_MESSAGE_ENDPOINT = telegramBotAuth + "sendMessage";
 string SEND_STICKER_ENDPOINT = telegramBotAuth + "sendSticker";
 
-string WELCOME_MESSAGE = "Hello and welcome to MarketSentry Bot!\nI'm thrilled to have you here! Here's what I can do to help you:\n\nDividend Alerts\nDaily performance alerts (coming soon)\nFilter alerts (coming soon)\n\nBefore we get started, please provide me with the authentication token you obtained from the settings page in the web app. Simply send me the token to proceed.\n\nHappy trading!";
+string WELCOME_MESSAGE = "Hello and welcome to MarketSentry Bot!\nI'm thrilled to have you here! Here's what I can do to help you:\n\nDividend Alerts\nDaily performance alerts\nFilter alerts (coming soon)\n\nBefore we get started, please provide me with the authentication token you obtained from the settings page (https://market-sentry.choreoapps.dev/settings) in the web app. Simply send me the token to proceed.\n\nHappy trading!";
 string WELCOME_STICKER_ID = "CAACAgIAAxkBAAM2ZhDMlW6ikH0ZHQvz6R_e2_4gYtUAAgUAA8A2TxP5al-agmtNdTQE";
 
 string CONFUSION_MESSAGE = "I'm sorry, I'm just a simple bot designed to authenticate users and deliver alerts. I'm not equipped to understand messages beyond that scope. If you need assistance, feel free to use the /help option for guidance on how to interact with me.";
@@ -22,7 +22,7 @@ string CONFUSION_STICKER_ID = "CAACAgIAAxkBAANLZhDXYaltL3wjVwt5718RheX00DAAAhIAA
 string NO_ACCOUNT_MESSAGE = "Oops! It seems like the token you provided is invalid. Please double-check the token you entered and try again.";
 string NO_ACCOUNT_STICKER_ID = "CAACAgIAAxkBAANDZhDV3HFE0KHMklNS5CB3jW74IlcAAhgAA8A2TxPW-ie_nGoY-DQE";
 
-string HELP_MESSAGE = "To get started and receive alerts, follow these simple steps:\n1. Log in to the MarketSentry web portal.\n2. Navigate to the Settings page.\n3. Copy the authentication token provided.\n4. Paste the token here to authenticate your account with the bot.\n\nIf you ever decide you no longer need to receive alerts from this bot, simply disconnect it from the Settings page on the web portal.";
+string HELP_MESSAGE = "To get started and receive alerts, follow these simple steps:\n1. Log in to the MarketSentry web portal.\n2. Navigate to the Settings page (https://market-sentry.choreoapps.dev/settings).\n3. Copy the authentication token provided.\n4. Paste the token here to authenticate your account with the bot.\n\nIf you ever decide you no longer need to receive alerts from this bot, simply disconnect it from the Settings page on the web portal.";
 string HELP_STICKER_ID = "CAACAgIAAxkBAAPQZhEAAUSKeyCpmKVBmAl0UDeIFLQyAAIGAAPANk8Tx8qi9LJucHY0BA";
 
 string ACCOUNT_CONNECTED_MESSAGE = "You've successfully authenticated. You're all set to receive alerts and stay updated on your views and filters.";
