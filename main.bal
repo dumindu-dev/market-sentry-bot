@@ -36,7 +36,7 @@ function updateUserChatId(int chat_id, string token)returns int|error{
         connection:mongoConnectionString
     });
 
-    mongodb:Database stockDb = check mongoClient->getDatabase("stockdb");
+    mongodb:Database stockDb = check mongoClient->getDatabase("stocks_dev");
     mongodb:Collection usersCollection = check stockDb->getCollection("users");
 
     map<json> replaceFilter = { "telegramToken": token };
