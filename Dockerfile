@@ -3,7 +3,7 @@ LABEL maintainer="dumindu.chath@gmail.com"
 
 COPY . /home/ballerina
 
-USER 10016
+USER ballerina
 
 EXPOSE  8290
 
